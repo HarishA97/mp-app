@@ -4,7 +4,7 @@ import './App.css';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {password: new Date().toUTCString()};
+    this.state = {password: new Date().toString()};
   }
 
   render() {
